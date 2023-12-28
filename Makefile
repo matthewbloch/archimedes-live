@@ -51,7 +51,7 @@ build/emu: dlcache/arculator21.tar.gz
 
 dlcache/arculator21.tar.gz:
 	mkdir -p dlcache
-	curl -s http://b-em.bbcmicro.com/arculator/Arculator_V2.1_Linux.tar.gz --output dlcache/arculator21.tar.gz
+	curl -s https://b-em.bbcmicro.com/arculator/Arculator_V2.1_Linux.tar.gz --output dlcache/arculator21.tar.gz
 
 build/software/software.json:
 	arclive-software/toml2json.py arclive-software/catalogue/ build/software/
